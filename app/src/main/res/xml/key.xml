@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--keyheight：每一个按键的高度  keywidth：每一个按键的宽度  horizontalGap：水平两个按键之间的距离 -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p"
+    android:horizontalGap="1px"
+    android:verticalGap="1px">
+    <Row>
+        <Key android:codes="49" android:keyLabel="1"/><!--codes:对应的ASC码  ketlabel：这个键对应显示的数-->
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="-5" android:keyLabel="删除"/><!--这里的codes是自己定义的，后续需要再定义该常量对应的功能-->
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="4"/><!--codes:对应的ASC码  ketlabel：这个键对应显示的数-->
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="-4" android:keyLabel="确定" android:keyHeight="150dp"/>
+    </Row>
+    <Row>
+        <Key android:codes="55" android:keyLabel="7"/><!--codes:对应的ASC码  ketlabel：这个键对应显示的数-->
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+    </Row>
+    <Row>
+        <Key android:codes="-3" android:keyLabel="清零"/><!--codes:对应的ASC码  ketlabel：这个键对应显示的数-->
+        <Key android:codes="48" android:keyLabel="0"/>
+        <Key android:codes="46" android:keyLabel="."/>
+    </Row>
+</Keyboard>
